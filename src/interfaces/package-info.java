@@ -3,4 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+/**
+ * Package where the interfaces that are implemented are.
+ */
 package interfaces;
