@@ -6,7 +6,7 @@
 package classes;
 
 /**
- *
+ * Enumeration Message where the values to be transmitted between the server and the client are defined.
  * @author Aitor
  */
 public enum Message {
