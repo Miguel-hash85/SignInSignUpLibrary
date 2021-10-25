@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 /**
  * Class DataEncapsulation that contains the info that is transmitted between server and client.
- * @author Aitor
+ * @author Aitor Ruiz de Gauna
  */
 public class DataEncapsulation implements Serializable{
    

@@ -7,7 +7,7 @@ package exceptions;
 
 /**
  * Class UserNotFoundException that is used when the signIn username it´s not found.
- * @author Aitor
+ * @author Aitor Ruiz de Gauna
  */
 public class UserNotFoundException extends Exception{
      /**

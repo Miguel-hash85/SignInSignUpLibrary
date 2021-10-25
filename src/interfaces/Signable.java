@@ -5,9 +5,11 @@
  */
 package interfaces;
 
+import classes.User;
+
 /**
  * Interface Signable with the methos to signUp and sigIn.
- * @author Aitor
+ * @author Aitor Ruiz de Gauna
  */
 public interface Signable {
     /**
