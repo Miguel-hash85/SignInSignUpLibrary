@@ -27,11 +27,11 @@ public interface Signable {
     /**
      * Method signUp that receives a User, returns a User and throws Exception.
      * @param user
-     * @return user
      * @throws Exception 
      * @throws exceptions.UserNotFoundException 
      * @throws exceptions.IncorrectPasswordException 
-     * @throws exceptions.ConnectionRefusedException 
+     * @throws exceptions.ConnectionRefusedException
+     * @return user 
      */
     public User signIn(User user) throws Exception,UserNotFoundException,IncorrectPasswordException,ConnectionRefusedException;
     
