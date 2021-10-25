@@ -27,7 +27,7 @@ public interface Signable {
     /**
      * Method signUp that receives a User, returns a User and throws Exception.
      * @param user
-     * @return
+     * @return user
      * @throws Exception 
      * @throws exceptions.UserNotFoundException 
      * @throws exceptions.IncorrectPasswordException 
