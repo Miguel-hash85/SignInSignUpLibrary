@@ -10,11 +10,29 @@ import java.time.LocalDateTime;
 
 /**
  * Class that defines a SignIn
- * @author Miguel Sánchez 
+ * @author Miguel Sánchez
  */
 public class SignIn implements Serializable{
     
     private LocalDateTime lastSignIn;
+    private int id;
+    
+    /**
+     * This method return the id of the user
+     * @return 
+     */
+
+    public int getId() {
+        return id;
+    }
+    
+    /**
+     * This method set the user id
+     * @param id 
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
     
     /**
      * This method return the last sign in (LocalDateTime)
