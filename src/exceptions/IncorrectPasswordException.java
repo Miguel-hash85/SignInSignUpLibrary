@@ -7,7 +7,7 @@ package exceptions;
 
 /**
  * Class  IncorrectPasswordException that is used when the password of the signIn it´s incorrect.
- * @author Aitor
+ * @author Aitor Ruiz de Gauna Calvo,Miguel Sánchez
  */
 public class IncorrectPasswordException extends Exception{
     /**

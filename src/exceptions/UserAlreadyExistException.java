@@ -7,7 +7,7 @@ package exceptions;
 
 /**
  * Class UserAlreadyExistException that is used when the signUp username it´s already in use.
- * @author Aitor
+ * @author Aitor Ruiz de Gauna Calvo,Miguel Sánchez
  */
 public class UserAlreadyExistException extends Exception{
     /**

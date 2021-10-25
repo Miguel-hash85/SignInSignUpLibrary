@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 
 /**
  * Class that defines a SignIn
- * @author Miguel
+ * @author Miguel Sánchez 
  */
 public class SignIn implements Serializable{
     

@@ -7,7 +7,7 @@ package classes;
 
 /**
  * Enumeration Message where the values to be transmitted between the server and the client are defined.
- * @author Aitor
+ * @author Aitor Ruiz de Gauna
  */
 public enum Message {
     SIGNUP,SIGNIN,OK,USER_NOTFOUND,INCORRECT_PASSWORD,EXISTING_USERNAME,CONNECTION_ERROR
