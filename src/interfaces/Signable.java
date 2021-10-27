@@ -23,7 +23,8 @@ public interface Signable {
      * @throws exceptions.UserAlreadyExistException 
      * @throws exceptions.ConnectionRefusedException 
      */
-    public void signUp(User user) throws Exception,UserAlreadyExistException,ConnectionRefusedException;
+    public void signUp(User user) throws UserAlreadyExistException,ConnectionRefusedException,Exception;
+    /**,UserAlreadyExistException,ConnectionRefusedException;
     /**
      * Method signUp that receives a User, returns a User and throws Exception.
      * @param user
@@ -33,6 +34,6 @@ public interface Signable {
      * @throws exceptions.IncorrectPasswordException 
      * @throws exceptions.ConnectionRefusedException 
      */
-    public User signIn(User user) throws Exception,UserNotFoundException,IncorrectPasswordException,ConnectionRefusedException;
+    public User signIn(User user) throws UserNotFoundException,IncorrectPasswordException,ConnectionRefusedException,Exception;
     
 }
