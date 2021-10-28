@@ -14,7 +14,8 @@ public class UserAlreadyExistException extends Exception{
      * Method getErrorMessage that return the error message.
      * @return String
      */
-    public String getErrorMessage(){
+    @Override
+    public String getMessage(){
         return "The username is already in use,try with another one";
     }
 }
