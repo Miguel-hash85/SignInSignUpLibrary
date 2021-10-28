@@ -14,7 +14,8 @@ public class UserNotFoundException extends Exception{
      * Method getErrorMessage that return the error message.
      * @return String
      */
-    public String getErrorMessage(){
+    @Override
+    public String getMessage(){
         return "User not found";
     }
 }

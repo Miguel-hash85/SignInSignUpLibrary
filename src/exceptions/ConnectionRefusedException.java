@@ -14,7 +14,8 @@ public class ConnectionRefusedException extends Exception{
      * Method getErrorMessage that return the error message.
      * @return String
      */
-    public String getErrorMessage(){
+    @Override
+    public String getMessage(){
         return "Connection with the server refused,try later";
     }
 }
